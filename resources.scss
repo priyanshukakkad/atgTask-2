@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.display-none {
+  display: none !important;
+}
+
+.circle {
+  position: fixed;
+  left: 25%;
+  top: 9%;
+  height: 400px;
+  width: 400px;
+  z-index: 1;
+
+  .svg-bg {
+    border-radius: 50%;
+  }
+
+  .svg-bg-1 {
+    background-color: #0E0D37 !important;
+  }
+
+  .svg-bg-2 {
+    background-color: #17253A !important;
+  }
+
+  .svg-bg-3 {
+    background-color: #164B9B !important;
+  }
+
+  .svg-bg-4 {
+    background-color: #04278B !important;
+  }
+
+  .svg-bg-5 {
+    background-color: #0A924B !important;
+  }
+
+  .svg-bg-6 {
+    background-color: #5C00A1 !important;
+  }
+
+  .svg-bg-7 {
+    background-color: #4A16C6 !important;
+  }
+
+}
+
+$action_btn: #3B94EE;
+
+$slide1_left_bg: #5C00A1;
+$slide1_right_bg: #CBCACD;
+
+$slide2_left_bg: #4A16C6;
+$slide2_right_bg: #1A005D;
+
+$slide3_left_bg: #0E0D37;
+$slide3_right_bg: #141245;
+
+$slide4_left_bg: #17253A;
+$slide4_right_bg: #0D121A;
+
+$slide5_left_bg: #164B9B;
+$slide5_right_bg: #3ADBDA;
+
+$slide6_left_bg: #04278B;
+$slide6_right_bg: #D7C2B5;
+
+$slide7_left_bg: #0A924B;
+$slide7_right_bg: #0FCE69;
